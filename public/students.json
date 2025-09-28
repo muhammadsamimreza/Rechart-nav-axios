@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tanvir",
+    "physics": 78,
+    "chemistry": 81,
+    "math": 87
+  },
+  {
+    "name": "Mahi",
+    "physics": 69,
+    "chemistry": 75,
+    "math": 90
+  },
+  {
+    "name": "Raisa",
+    "physics": 92,
+    "chemistry": 88,
+    "math": 85
+  },
+  {
+    "name": "Nayeem",
+    "physics": 80,
+    "chemistry": 79,
+    "math": 77
+  },
+  {
+    "name": "Lamia",
+    "physics": 88,
+    "chemistry": 84,
+    "math": 93
+  }
+]
