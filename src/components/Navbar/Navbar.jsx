@@ -16,19 +16,19 @@ const Navbar = () => {
   ));
 
   return (
-    <div className="bg-gray-100 shadow-md z-1">
+    <div className="bg-gray-100 shadow-md">
       <nav className="my-c flex justify-between items-center py-2 px-2">
         <div>
           <span className="flex items-center gap-3">
             <span
               onClick={() => setMenu(!menu)}
-              className="bg-white rounded-md p-1 border border-white hover:border-gray-200 md:hidden flex z-10"
+              className="bg-white rounded-md p-1 border border-white hover:border-gray-200 md:hidden flex"
             >
               {menu ? <X className="text-[#f00505]" /> : <Menu />}
             </span>
               <ul className={`absolute duration-1000 md:hidden
                 ${menu ? "left-0 top-14" : "top-14 -left-50"}
-                bg-gray-50 shadow-md pr-4 py-1`}>
+                bg-gray-50 shadow-md pr-4 py-1 z-10`}>
                 {
                     links
                 }
